@@ -43,6 +43,8 @@ const GsapFromTo = () => {
             >
                 The <code>gsap.fromTo()</code> method animates an element from its current
                 state to a new state.
+
+                With <code>fromTo()</code> you decide both starting state and the ending state.
             </p>
 
             <div

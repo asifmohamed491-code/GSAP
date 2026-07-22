@@ -18,7 +18,7 @@ const lessons = [
   },
   {
     title: "Timeline",
-    path: "/timeline",
+    path: "/gsap-timeline",
     description: "Control multiple animations",
   },
   {
