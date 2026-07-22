@@ -6,6 +6,7 @@ import GsapFrom from "./pages/GsapFrom";
 import GsapFromTo from "./pages/GsapFromTo";
 import GsapTimeLine from "./pages/GsapTimeLine";
 import GsapStagger from "./pages/GsapStagger";
+import GsapScrollTrigger from "./pages/GsapScrollTrigger";
 
 
 
@@ -20,6 +21,8 @@ function App() {
       <Route path="/gsap-fromto" element={<GsapFromTo />} />
       <Route path="/gsap-timeline" element={<GsapTimeLine />} />
       <Route path="/gsap-stagger" element={<GsapStagger />} />
+      <Route path="/gsap-scrolltrigger" element={<GsapScrollTrigger />} />
+
 
 
     </Routes>

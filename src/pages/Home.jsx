@@ -28,7 +28,7 @@ const lessons = [
   },
   {
     title: "ScrollTrigger",
-    path: "/scrolltrigger",
+    path: "/gsap-scrolltrigger",
     description: "Animate on scroll",
   },
 ];
