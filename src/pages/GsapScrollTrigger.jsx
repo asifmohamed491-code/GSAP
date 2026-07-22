@@ -16,12 +16,13 @@ const GsapScrollTrigger = () => {
                 x: 150 * (boxes.indexOf(box) + 5),
                 rotation: 360,
                 borderRadius: "100%",
-                scale: 1.5,
-                scrollTrigger: {
-                    trigger: box,
-                    start:'bottom, bottom',
+                scale: 1.5, //150%
+                scrollTrigger: { //scroll pannum pothu animate aahu nu soldrom 
+                    trigger: box, // animation st panna decide pandra element
+                    start:'bottom bottom',
                     end:'top 10%',
-                    scrub:true,
+                    scrub:true, //animate infinite time scrolling 
+                    markers:true
                 },
                 ease:'power1.inOut'
             });
