@@ -1,7 +1,24 @@
-import GsapTo from "../public/GsapTo.jsx";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/Home";
+import GsapTo from "./pages/GsapTo";
+import GsapFrom from "./pages/GsapFrom";
+import GsapFromTo from "./pages/GsapFromTo";
+
+
+
 
 function App() {
-  return <GsapTo />;
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/gsap-to" element={<GsapTo />} />
+      <Route path="/gsap-from" element={<GsapFrom />} />
+      <Route path="/gsap-fromto" element={<GsapFromTo />} />
+
+
+    </Routes>
+  );
 }
 
 export default App;

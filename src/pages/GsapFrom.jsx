@@ -1,15 +1,15 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-const GsapTo = () => {
+const GsapFrom = () => {
   useGSAP(() => {
-    gsap.to("#blue-box", {
+    gsap.from("#green-box", {
       x: 250, //moving form x direction 
       repeat:-1, //moving form left -1 infinite time
       yoyo:true, //smooth mooving
       rotation:360, //rotate to 360 deg
       duration:2, // animate in 2 sec
-      ease:"elastic" 
+      ease:"power1.inOut" 
     });
   }, []);
 
@@ -36,16 +36,15 @@ const GsapTo = () => {
           marginBottom: "40px",
         }}
       >
-        The <code>gsap.to()</code> method animates an element from its current
-        state to a new state.
+        The <code>gsap.to()</code> method animates an element from a new state to their current state.
       </p>
 
       <div
-        id="blue-box"
+        id="green-box"
         style={{
           width: "120px",
           height: "120px",
-          backgroundColor: "royalblue",
+          backgroundColor: "green",
           borderRadius: "10px",
         }}
       ></div>
@@ -53,4 +52,4 @@ const GsapTo = () => {
   );
 };
 
-export default GsapTo;
+export default GsapFrom;
