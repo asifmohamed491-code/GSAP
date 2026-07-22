@@ -10,7 +10,14 @@ useGSAP(()=>{
         borderRadius:'100%',
         repeat:-1,
         yoyo:true,
-        stagger:0.5,
+        // stagger:2.5,
+        stagger:{  // one by one animation 
+            amount:2.5, //total stagger time
+            grid:[3,1], //rows,coloumns
+            axis:'y',
+            ease:'circ.inOut',
+            from:"center"
+        }
     })
 },[])
 
