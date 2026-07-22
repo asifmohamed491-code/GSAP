@@ -23,7 +23,7 @@ const lessons = [
   },
   {
     title: "Stagger",
-    path: "/stagger",
+    path: "/gsap-stagger",
     description: "Animate multiple elements one by one",
   },
   {
