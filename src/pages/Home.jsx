@@ -31,6 +31,11 @@ const lessons = [
     path: "/gsap-scrolltrigger",
     description: "Animate on scroll",
   },
+  {
+    title: "GSAP-Text",
+    path: "/gsap-text",
+    description: "Animation in text",
+  },
 ];
 
 const Home = () => {
